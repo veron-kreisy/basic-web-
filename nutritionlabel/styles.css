@@ -13,15 +13,19 @@ html{
 *{
     box-sizing: border-box;
 }
-h1{
+
+header h1{
     
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px;
 
+
 }
 p{
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 .divider{
     border-bottom: 1px solid #888989;
@@ -29,4 +33,19 @@ p{
 }
 .bold{
     font-weight: 800;
+}
+.large{
+    height: 10px;
+
+}
+.large, .medium{
+    background-color: black;
+    border: 0;
+}
+.small-text{
+    font-size: 0.85rem;
+
+}
+.calories-info h2{
+    margin: 0;
 }
